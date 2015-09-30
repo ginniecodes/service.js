@@ -1,0 +1,15 @@
+09/06/14:
+
+*elementTypeCheck function modified;
+*arraySort function modified;
+*processArray function modified
+*average function modified
+*charCount function modified
+
+<----->
+
+09/07/14:
+
+*functions added: isInt,isIntArray,isFloat,isFloatArray
+
+<----->

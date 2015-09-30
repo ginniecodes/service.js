@@ -1,0 +1,23 @@
+input{
+  margin-bottom:14px;
+}
+#div1,#div2,#div3,#div4{
+  border-radius: 2px;
+  max-width: 40%;
+  margin: 0 auto 0;
+  text-align:center;
+  padding:8px;
+}
+#div1{
+  background: antiquewhite;
+}
+#div2{
+  background:yellow;
+}
+#div3{
+  background: grey;
+}
+#div4{
+  background:purple;
+  color:white;
+}

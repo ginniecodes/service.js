@@ -1,0 +1,141 @@
+service.js
+A js utility library
+
+
+List of utility functions:
+<----->
+	1.typeCheck(id,type)              
+	/*checks the type of a variable*/ 
+<----->
+	2.elementTypeCheck(array,type)    
+	/*checks the types of array elements*/ 
+<----->
+	3.arraySort(array,order)          
+	/*sorts an array depending on the array element type number or string*/
+<----->
+	4.sciNotation(number,display)     
+	/*returns the string representation of a number in scientific notaion*/
+<----->
+	5.average(array)                  
+	/*returns the average of numbers of an array*/
+<----->
+	6.binarySearch(array,target)      
+	/*implementation of binary search algorithm*/
+<----->
+	7.mergeSort(arr,arr2)             
+	/*merging and sorting array elements*/
+<----->
+	8.elementCount(array,element)     
+	/*counting a particular element in an array*/
+<----->
+	9.charCount(string)               
+	/*char count in a string without whitespace*/
+<----->
+	10.counter()                      
+	/*general counter function*/
+<----->
+	11.sameHeight(a1,a2...,an)        
+	/*Set equal height for every dom element provided as parameter*/
+<----->
+	12.processNum(id)                 
+	/*processes string to extract multiple numbers from a single input*/
+<----->
+	13.processArray(array,sign)       
+	/*processing array elements according to sign*/
+<----->
+	14.hideElement(a1,a2...,an)       
+	/*hides elements according to device size*/
+<----->
+	15.charLimit(str,limit)           
+	/*checks if a string has crossed the char limit or not*/
+<----->
+	16.randomElement(array)           
+	/*returns a random element from an array*/
+<----->
+	17.nodeCheck(node)                
+	/*checks if a dom element with a particular id exists in the dom*/
+<----->
+	18.random(min,max)                
+	/*returns a random integer between a range*/
+<----->
+	19.numArrayModifier(array,min,max)
+	/*array modifier according to set min,max values*/
+<----->
+	20.swapNum(min,max)               
+	/*swapping two number values*/
+<----->
+	21.isInt(num)                     
+	/*checks if a number is int or not*/
+<----->
+	22.isIntArray(array)              
+	/*checks if an number array contains only int or not*/
+<----->
+	23.isFloat(num)                   
+	/*checks if a number is float or not*/
+<----->
+	24.isFloatArray(array)            
+	/*checks if an number array contains only float or not*/
+<----->
+    25.spaceReplace(string,replacement,trim)
+    /*replaces space with another string*/
+<----->
+    26.strToNumArray(array)
+    /*converts stringed numbers to numbers in an array*/ 
+<----->
+    27.countChar(string,ch)
+    /*counts the occurance of a char in a str*/
+<----->
+    28.sciToNormal(num)
+    /*sci to normal notation*/
+<----->
+    29.binToDec(string)
+    /*binary to decimal conversion*/
+<----->
+<----->
+    30.decToBin(num)
+    /*decimal to binary conversion*/
+<----->
+<----->
+    31.arrayContains(array,element)
+    /*checks if an element is present in array*/
+<----->
+<----->
+    32.uniqueElements(array)
+    /*returns the unique element from an array*/
+<----->
+<----->
+    33.strUniqueChar(string)
+    /*returns the unique chars from a string*/
+<----->
+<----->
+    34.factorial(num)
+    /*returns the factorial of a number*/
+<----->
+<----->
+    35.permutation(n,r)
+    /*this function performs permutation operation*/
+<----->
+<----->
+    36.combination(n,r)
+    /*this function performs combination operation*/
+<----->
+<----->
+    37.arrayCopy(arr,arr2)
+    /*copies the elements of one array to another array*/
+<----->
+<----->
+    38.zeroToLastIndex(arr)
+    /*moves the element in zeroth index of an array to the last index*/
+<----->
+<----->
+    39.modifier(array,fn)
+    /*modifies an array according to the callback function*/
+<----->
+<----->
+    40.isPalindrome(string)
+    /*checks if a string is palindrome or not*/
+<----->
+<----->
+    41.isSubArray(array,array2)
+    /*checks if an array is a subarray of another array*/
+<----->
