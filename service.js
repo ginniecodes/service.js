@@ -1,9 +1,9 @@
 /***** service.js ******/
 /***** started on 09/01/15 *****/
 "use strict";
-var service = function () {
+var Service = function () {
 
-    var sProto= service.prototype,   /*global variable for function prototypes*/
+    var sProto= Service.prototype,   /*global variable for function prototypes*/
     width= window.innerWidth;
 
 	/*checks the type of a variable*/
@@ -884,7 +884,51 @@ var service = function () {
 			return (counter===array2.length)?true:false;
 		}
 	}
+
+	/*dynamic element generator*/
+	sProto.elementCreation= function(array,parent,node){
+		if(arguments.length!==3 || !sProto.typeCheck(array,'object')|| !sProto.nodeCheck(parent)){
+			return;
+		}
+		else{
+			var len= array.length,
+			element= document.getElementById(parent);
+			for(var i=0;i<len;i++){
+				var options = document.createElement(node);
+				var val = document.createTextNode(array[i]);
+				options.appendChild(val);
+				element.appendChild(options);
+			}
+		}  
+	}
+
+	/*creates array element acording to index*/
+	sProto.indexPush= function(array,min,max){
+		if(arguments.length!==3 || !sProto.typeCheck(array,'object')|| min>=max){
+			return;
+		}
+		else{
+			for(var i=min;i<=max;i++){
+        		array.push(i);
+        	}
+        	return array;
+		}  
+	}
 	
+	/*adds a string to each array element*/
+	sProto.addString= function(arr,str){
+		if(arguments.length!==2 || !sProto.typeCheck(arr,'object')|| !sProto.typeCheck(str,'string')){
+			return;
+		}
+		else{
+			var len= arr.length;
+			for(var i=0;i<len;i++){
+		        arr[i]= arr[i]+str;
+			}
+			return arr;
+		}  
+	}
+
 /*end point*/
 };
 

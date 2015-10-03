@@ -2,7 +2,7 @@
 /**********service js using prototype functions*****/
 /***************************************/
 
-var s = new service();
+var s = new Service();
 var arr =[12,2,3,4,11,2,3,3.2];
 var arr2=[22,12,36,11,44];
 var stringArr = ["Dhaka","Rajshahi","Sylhet","Khulna","Comilla","Barishal","Rangpur"];
@@ -126,9 +126,18 @@ console.log(s.modifier(places,caseChange));*/
 //var x="110110000111000011011";
 //console.log(s.isPalindrome(x));
 
-var arr6=[11,10,9,8,7,6,5,4,3,2,1,0];
+/*var arr6=[11,10,9,8,7,6,5,4,3,2,1,0];
 var arr7=[5,4,3,6,11,1,2,7,8,9];
-console.log(s.isSubArray(arr6,arr7));
+console.log(s.isSubArray(arr6,arr7));*/
+
+//s.elementCreation(stringArr,'container','p');
+
+/*var numArr=[];
+s.indexPush(numArr,1,50);
+console.log(numArr);*/
+
+console.log(s.addString(stringArr," BAAL"));
+
 
 
 
