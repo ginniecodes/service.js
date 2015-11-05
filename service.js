@@ -815,7 +815,7 @@ var Service = function () {
 			    arr2[i] = arr[i];
 			}
 		}
-	}
+	};
 
 
 	/*moves the element in zeroth index of an array to the last index*/
@@ -828,7 +828,7 @@ var Service = function () {
 			arr.push(first);
 			return arr;  /*[1,2,3] becomes [2,3,1]*/
 		}
-	}
+	};
 
 	/*modifies an array according to the callback function*/
 	sProto.modifier= function(array,fn){
@@ -844,7 +844,7 @@ var Service = function () {
 			}
 			return newArr;
 		}
-	}
+	};
 
 	/*checks if a string is palindrome or not*/
 	sProto.isPalindrome= function(string){
@@ -860,7 +860,7 @@ var Service = function () {
 			}
 			return false;
 		}
-	}
+	};
 
 	/*checks if an array is a subarray of another array*/
 	sProto.isSubArray= function(array,array2){
@@ -883,7 +883,7 @@ var Service = function () {
 			}
 			return (counter===array2.length)?true:false;
 		}
-	}
+	};
 
 	/*dynamic element generator*/
 	sProto.elementCreation= function(array,parent,node){
@@ -900,7 +900,7 @@ var Service = function () {
 				element.appendChild(options);
 			}
 		}  
-	}
+	};
 
 	/*creates array element acording to index*/
 	sProto.indexPush= function(array,min,max){
@@ -913,7 +913,7 @@ var Service = function () {
         	}
         	return array;
 		}  
-	}
+	};
 	
 	/*adds a string to each array element*/
 	sProto.addString= function(arr,str){
@@ -927,7 +927,18 @@ var Service = function () {
 			}
 			return arr;
 		}  
-	}
+	};
+
+	/*sorts an array and finds the median*/
+	sProto.median= function(arr){
+        if(arguments.length!==1 || !sProto.elementTypeCheck(arr,'number')){
+			return;
+		}
+		else{
+			sProto.arraySort(arr);
+			return arr[Math.ceil(arr.length/2)];
+		}
+	};
 
 /*end point*/
 };

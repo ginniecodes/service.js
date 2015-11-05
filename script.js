@@ -136,10 +136,11 @@ console.log(s.isSubArray(arr6,arr7));*/
 s.indexPush(numArr,1,50);
 console.log(numArr);*/
 
-console.log(s.addString(stringArr," BAAL"));
+//console.log(s.addString(stringArr," BAAL"));
 
 
-
+var arr6=[11,10,9,8,7,6,5,4,3,2,1,0];
+console.log(s.median(arr6));
 
 
 
