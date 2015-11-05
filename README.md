@@ -731,7 +731,9 @@
   <div></div>
   <code>
     var arr=[5,1,3,2,16,8,7,32],copyArr=[];
+    <div></div>
     //s.arrayCopy(arr,copyArr);
+    <div></div>
     //console.log(copyArr);  //prints 5,1,3,2,16,8,7,32 in the console
   </code>
 </div>
@@ -739,7 +741,7 @@
 <p></p>
 <div>
   <b>38.zeroToLastIndex(arr)</b>
-  <p>This function moves the element in zeroth index of an array to the last index</p>
+  <p>This function moves the element in zeroth index of an array to the last index.</p>
   <p></p>
   <b>Parameter(s):</b>
   <div></div>
@@ -749,6 +751,7 @@
   <div></div>
   <code>
     var arr= [1,2,3,4,5];
+    <div></div>
     console.log(s.zeroToLastIndex(arr)); ////prints 2,3,4,5,1 in the console
   </code>
 </div>
@@ -756,7 +759,7 @@
 <p></p>
 <div>
   <b>39.modifier(arr,fn)</b>
-  <p>This function modifies an array according to the callback function</p>
+  <p>This function modifies an array according to the callback function.</p>
   <p></p>
   <b>Parameter(s):</b>
   <div></div>
@@ -768,10 +771,15 @@
   <div></div>
   <code>
     function square(num){
+    <div></div>
       num=num*num;
+      <div></div>
       return num;
+      <div></div>
     }
+    <div></div>
     var nums = [1,2,3,4,5];
+    <div></div>
     console.log(s.modifier(nums,square)); //returns 1,4,9,16,25
   </code>
 </div>
@@ -779,7 +787,7 @@
 <p></p>
 <div>
   <b>40.isPalindrome(string)</b>
-  <p>This function checks if a string is palindrome or not</p>
+  <p>This function checks if a string is palindrome or not.</p>
   <p></p>
   <b>Parameter(s):</b>
   <div></div>
@@ -789,6 +797,7 @@
   <div></div>
   <code>
     var x= "poop";
+    <div></div>
     console.log(s.isPalindrome(x)); //returns true
   </code>
 </div>
