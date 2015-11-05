@@ -680,6 +680,42 @@
   </code>
 </div>
 
+<p></p>
+<div>
+  <b>34.permutaion(n,r)</b>
+  <p>This function performs permutaion operation.</p>
+  <p></p>
+  <b>Parameter(s):</b>
+  <div></div>
+  <b>1.</b>n: This must be a number.
+  <div></div>
+  <b>2.</b>r: This must be a number and less then n.
+  <p></p>
+  <b>Example:</b>
+  <div></div>
+  <code>
+    console.log(s.permutation(10,5)); //returns 30240
+  </code>
+</div>
+
+<p></p>
+<div>
+  <b>34.combination(n,r)</b>
+  <p>This function performs combination operation.</p>
+  <p></p>
+  <b>Parameter(s):</b>
+  <div></div>
+  <b>1.</b>n: This must be a number.
+  <div></div>
+  <b>2.</b>r: This must be a number and less then n.
+  <p></p>
+  <b>Example:</b>
+  <div></div>
+  <code>
+    console.log(s.combination(10,5)); //returns 252
+  </code>
+</div>
+
 
 
 
