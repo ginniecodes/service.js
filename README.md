@@ -682,7 +682,7 @@
 
 <p></p>
 <div>
-  <b>34.permutaion(n,r)</b>
+  <b>35.permutaion(n,r)</b>
   <p>This function performs permutaion operation.</p>
   <p></p>
   <b>Parameter(s):</b>
@@ -700,7 +700,7 @@
 
 <p></p>
 <div>
-  <b>34.combination(n,r)</b>
+  <b>36.combination(n,r)</b>
   <p>This function performs combination operation.</p>
   <p></p>
   <b>Parameter(s):</b>
@@ -715,6 +715,84 @@
     console.log(s.combination(10,5)); //returns 252
   </code>
 </div>
+
+<p></p>
+<div>
+  <b>37.arrayCopy(arr,arr2)</b>
+  <p>This function copies the elements of one array to another array.</p>
+  <p></p>
+  <b>Parameter(s):</b>
+  <div></div>
+  <b>1.</b>arr: This must be an array.
+  <div></div>
+  <b>2.</b>arr2: This must be another array.
+  <p></p>
+  <b>Example:</b>
+  <div></div>
+  <code>
+    var arr=[5,1,3,2,16,8,7,32],copyArr=[];
+    //s.arrayCopy(arr,copyArr);
+    //console.log(copyArr);  //prints 5,1,3,2,16,8,7,32 in the console
+  </code>
+</div>
+
+<p></p>
+<div>
+  <b>38.zeroToLastIndex(arr)</b>
+  <p>This function moves the element in zeroth index of an array to the last index</p>
+  <p></p>
+  <b>Parameter(s):</b>
+  <div></div>
+  <b>1.</b>arr: This must be an array.
+  <p></p>
+  <b>Example:</b>
+  <div></div>
+  <code>
+    var arr= [1,2,3,4,5];
+    console.log(s.zeroToLastIndex(arr)); ////prints 2,3,4,5,1 in the console
+  </code>
+</div>
+
+<p></p>
+<div>
+  <b>39.modifier(arr,fn)</b>
+  <p>This function modifies an array according to the callback function</p>
+  <p></p>
+  <b>Parameter(s):</b>
+  <div></div>
+  <b>1.</b>arr: This must be an array.
+  <div></div>
+  <b>2.</b>fn: This must be a function.
+  <p></p>
+  <b>Example:</b>
+  <div></div>
+  <code>
+    function square(num){
+      num=num*num;
+      return num;
+    }
+    var nums = [1,2,3,4,5];
+    console.log(s.modifier(nums,square)); //returns 1,4,9,16,25
+  </code>
+</div>
+
+<p></p>
+<div>
+  <b>40.isPalindrome(string)</b>
+  <p>This function checks if a string is palindrome or not</p>
+  <p></p>
+  <b>Parameter(s):</b>
+  <div></div>
+  <b>1.</b>string: This must be a string.
+  <p></p>
+  <b>Example:</b>
+  <div></div>
+  <code>
+    var x= "poop";
+    console.log(s.isPalindrome(x)); //returns true
+  </code>
+</div>
+
 
 
 
