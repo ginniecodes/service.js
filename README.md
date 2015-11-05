@@ -664,6 +664,22 @@
   </code>
 </div>
 
+<p></p>
+<div>
+  <b>34.factorial(num)</b>
+  <p>This function returns the factorial of a number.</p>
+  <p></p>
+  <b>Parameter(s):</b>
+  <div></div>
+  <b>1.</b>num: This must be a number.
+  <p></p>
+  <b>Example:</b>
+  <div></div>
+  <code>
+    console.log(s.factorial(5)); //returns 120
+  </code>
+</div>
+
 
 
 
