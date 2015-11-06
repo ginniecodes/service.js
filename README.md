@@ -802,6 +802,29 @@
   </code>
 </div>
 
+<p></p>
+<div>
+  <b>41.isSubArray(array,array2)</b>
+  <p>This function checks if all the elements of an array exist in another array.</p>
+  <p></p>
+  <b>Parameter(s):</b>
+  <div></div>
+  <b>1.</b>arr: This must be an array.
+  <div></div>
+  <b>1.</b>arr2: This must be an array.
+  <p></p>
+  <b>Example:</b>
+  <div></div>
+  <code>
+    var arr=[11,10,9,8,7,6,5,4,3,2,1,0];
+    <div></div>
+    var arr2=[5,4,3,6,11,1,2,7,8,9];
+    <div></div>
+    console.log(s.isSubArray(arr,arr2)); //returns true because all the elements of arr2 are present in arr array.
+  </code>
+</div>
+
+
 
 
 
