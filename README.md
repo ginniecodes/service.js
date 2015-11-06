@@ -824,6 +824,36 @@
   </code>
 </div>
 
+<p></p>
+<div>
+  <b>42.elementCreation(array,parent,node)</b>
+  <p>This function dynamically generates element.</p>
+  <p></p>
+  <b>Parameter(s):</b>
+  <div></div>
+  <b>1.</b>array: This must be an array.
+  <div></div>
+  <b>1.</b>parent: Id of the parent of the elements to be generated.
+  <div></div>
+  <b>1.</b>node: HTML element which's going to be dynamically generated.
+  <p></p>
+  <b>Example:</b>
+  <div></div>
+  <code>
+    HTML: 
+    <div></div>
+    <select id="size"></select>
+    <div></div>
+    JS:
+    <div></div>
+    var sizeArr= [10,11,12,13,14,15];
+    <div></div>
+    s.elementCreation(sizeArr,'size','option');
+    <div></div>
+    /*5 option elements will be generated with values 11,12,13,14,15,16 respectively. The select element with id 'size' will     be their parent.*/
+  </code>
+</div>
+
 
 
 
