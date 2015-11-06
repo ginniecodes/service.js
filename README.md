@@ -840,17 +840,11 @@
   <b>Example:</b>
   <div></div>
   <code>
-    HTML: 
-    <div></div>
-    <select id="size"></select>
-    <div></div>
-    JS:
-    <div></div>
     var sizeArr= [10,11,12,13,14,15];
     <div></div>
     s.elementCreation(sizeArr,'size','option');
     <div></div>
-    /*5 option elements will be generated with values 11,12,13,14,15,16 respectively. The select element with id 'size' will     be their parent.*/
+    /*Suppose there's a select element with id 'size'. Five option elements will be generated with values 11,12,13,14,15,16      respectively. The select element with id 'size' will be their parent.*/
   </code>
 </div>
    
