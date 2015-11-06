@@ -127,10 +127,10 @@ var Service = function () {
                            sum+=array[i];
                            break;
                         case "*":
-                            product*=array[i];        /*subtract elemns*/
+                            product*=array[i];        /*multiplies elemns*/
                             break;
                         case "-":                                      
-                            firstElmnt-=array[i+1];   /*multiplies elemns*/                  
+                            firstElmnt-=array[i+1];   /*substract elemns*/                  
                             break; 
                         case "/":                                      
                             firstElmnt/=array[i+1];    /*divides elemns*/ 
